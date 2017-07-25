@@ -1,0 +1,23 @@
+.programTable{
+	box-sizing: border-box;
+	width: 100%;	
+	border-top: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    border-spacing:0;
+}
+.programTable td{
+	border-bottom: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    text-align: center;	
+}
+#program{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#programLeft,#programRight{
+	box-sizing: border-box;
+	width: calc(50%);
+	margin: 10px;
+}
+
