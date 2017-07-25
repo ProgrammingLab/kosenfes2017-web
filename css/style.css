@@ -17,7 +17,7 @@
 }
 #programLeft,#programRight{
 	box-sizing: border-box;
-	width: calc(50%);
+	width: 50%;
 	margin: 10px;
 }
 
