@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+	<link rel="stylesheet" type="text/css" href="../css/map_style.css">
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
     <style>
@@ -19,9 +20,12 @@
   </head>
   <body>
 	<form class="starts">
-		<input type="radio" name="grp1" value="JR久留米駅" onclick="initMap()" checked >JR久留米駅
-  		<input type="radio" name="grp1" value="西鉄久留米駅" onclick="initMap()">西鉄久留米駅
-  		<input type="radio" name="grp1" value="西鉄宮の陣駅" onclick="initMap()">西鉄宮の陣駅
+		<input type="radio" name="grp1" value="JR久留米駅" id="select1" onclick="initMap()" checked >
+		<label for="select1">JR久留米駅</label>
+  		<input type="radio" name="grp1" value="西鉄久留米駅" id="select2" onclick="initMap()">
+		<label for="select2">西鉄久留米駅</label>
+		<input type="radio" name="grp1" value="西鉄宮の陣駅" id="select3" onclick="initMap()">
+		<label for="select3">西鉄宮の陣駅</label>
 	</form>
     <div id="map"></div>
     <script type="text/javascript" src="../javascript/route_search.js"></script>
