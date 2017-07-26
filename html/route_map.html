@@ -7,7 +7,7 @@
     <style>
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
-      #map {
+      #map{
         height: 100%;
       }
       /* Optional: Makes the sample page fill the window. */
@@ -22,12 +22,14 @@
 	<form class="starts">
 		<input type="radio" name="grp1" value="JR久留米駅" id="select1" onclick="initMap()" checked >
 		<label for="select1">JR久留米駅</label>
-  		<input type="radio" name="grp1" value="西鉄久留米駅" id="select2" onclick="initMap()">
+  		<input type="radio" name="grp1" value="西鉄久留米駅" onclick="initMap()" id="select2">
 		<label for="select2">西鉄久留米駅</label>
-		<input type="radio" name="grp1" value="西鉄宮の陣駅" id="select3" onclick="initMap()">
+		<input type="radio" name="grp1" value="西鉄宮の陣駅" onclick="initMap()" id="select3">
 		<label for="select3">西鉄宮の陣駅</label>
 	</form>
     <div id="map"></div>
+	<!--<div id="map2"></div>
+	<div id="map3"></div>-->
     <script type="text/javascript" src="../javascript/route_search.js"></script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8PE8h_sHTNo1d37cOjdcYzGhmdWqNUnY&callback=initMap">
