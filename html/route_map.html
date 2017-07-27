@@ -7,16 +7,16 @@
   </head>
   <body>
 	<form class="starts">
-		<input type="radio" name="grp1" value="JR久留米駅" id="select1" checked >
+		<input type="radio" name="grp1" value="JR久留米駅" id="select1" onclick="DisplayChange()" checked >
 		<label for="select1">JR久留米駅</label>
-  		<input type="radio" name="grp1" value="西鉄久留米駅" id="select2">
+  		<input type="radio" name="grp1" value="西鉄久留米駅" onclick="DisplayChange()" id="select2">
 		<label for="select2">西鉄久留米駅</label>
-		<input type="radio" name="grp1" value="西鉄宮の陣駅" id="select3">
+		<input type="radio" name="grp1" value="西鉄宮の陣駅" onclick="DisplayChange()" id="select3">
 		<label for="select3">西鉄宮の陣駅</label>
 	</form>
-    <div id="map"></div>
-	<div id="map2"></div>
-	<div id="map3"></div>
+    <div id="map" name="map"></div>
+	<div id="map2" name="map"></div>
+	<div id="map3" name="map"></div>
     <script type="text/javascript" src="../javascript/route_search.js"></script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8PE8h_sHTNo1d37cOjdcYzGhmdWqNUnY&callback=initMap">

@@ -28,7 +28,7 @@
 	color: #fff;
 }
 #map2,#map3 {
-	display : none;
+	display : hidden;
 }
 #map,#map2,#map3{
 	height : 100%;
