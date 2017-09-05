@@ -5,9 +5,9 @@
 	display: block;
 	float: left;
 	cursor: pointer;
-	width: 80px;
+	width: 33%;
 	margin: 0;
-	padding: 12px 5px;
+	padding: 12px 0;
 	border-right: 1px solid #abb2b7;
 	background: #bdc3c7;
 	color: #555e64;
@@ -15,6 +15,9 @@
 	text-align: center;
 	line-height: 1;
 	transition: .2s;
+}
+.starts label:last-child{
+  width: 33.7%;
 }
 .starts label:first-of-type{
 	border-radius: 3px 0 0 3px;
